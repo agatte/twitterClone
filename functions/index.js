@@ -29,7 +29,8 @@ const db = admin.firestore();
 
 // Get documents from firebase
 // Check GET request with Postman
-// Use express for cleaner code + don't have to check to see if user is posting on a GET req, etc.
+// Use express for cleaner code + don't have to check each time to see if user is posting
+// on a GET req, etc.
 
 // Error: Could not handle the request (408 request timeout error)
 // Worked after deploying but not on local machine
